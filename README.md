@@ -47,4 +47,4 @@
 2025-07-10T17:05:25.868Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
 2025-07-10T17:05:25.877Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2025-07-10_17-05-24_868.log"
 2025-07-10T17:05:26.122Z	Failed: error occurred while running deploy command
-````
+```
