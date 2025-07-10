@@ -1,50 +1,27 @@
 ```bash
-2025-07-10T17:04:57.584Z	Initializing build environment...
-2025-07-10T17:05:04.577Z	Success: Finished initializing build environment
-2025-07-10T17:05:04.781Z	Cloning repository...
-2025-07-10T17:05:09.457Z	No build output detected to cache. Skipping.
-2025-07-10T17:05:09.457Z	No dependencies detected to cache. Skipping.
-2025-07-10T17:05:09.459Z	Detected the following tools from environment: 
-2025-07-10T17:05:09.464Z	Executing user deploy command: npx wrangler deploy
-2025-07-10T17:05:12.451Z	npm warn exec The following package was not found and will be installed: wrangler@4.24.0
-2025-07-10T17:05:25.742Z	
-2025-07-10T17:05:25.743Z	 ⛅️ wrangler 4.24.0
-2025-07-10T17:05:25.743Z	───────────────────
-2025-07-10T17:05:25.752Z	
-2025-07-10T17:05:25.859Z	✘ [ERROR] Missing entry-point to Worker script or to assets directory
-2025-07-10T17:05:25.859Z	
-2025-07-10T17:05:25.860Z	  
-2025-07-10T17:05:25.860Z	  If there is code to deploy, you can either:
-2025-07-10T17:05:25.860Z	  - Specify an entry-point to your Worker script via the command line (ex: `npx wrangler deploy src/index.ts`)
-2025-07-10T17:05:25.861Z	  - Or create a "wrangler.jsonc" file containing:
-2025-07-10T17:05:25.861Z	  
-2025-07-10T17:05:25.861Z	  ```
-2025-07-10T17:05:25.861Z	  {
-2025-07-10T17:05:25.862Z	    "name": "worker-name",
-2025-07-10T17:05:25.862Z	    "compatibility_date": "2025-07-10",
-2025-07-10T17:05:25.862Z	    "main": "src/index.ts"
-2025-07-10T17:05:25.862Z	  }
-2025-07-10T17:05:25.863Z	  ```
-2025-07-10T17:05:25.863Z	  
-2025-07-10T17:05:25.863Z	  
-2025-07-10T17:05:25.863Z	  If are uploading a directory of assets, you can either:
-2025-07-10T17:05:25.863Z	  - Specify the path to the directory of assets via the command line: (ex: `npx wrangler deploy --assets=./dist`)
-2025-07-10T17:05:25.864Z	  - Or create a "wrangler.jsonc" file containing:
-2025-07-10T17:05:25.864Z	  
-2025-07-10T17:05:25.864Z	  ```
-2025-07-10T17:05:25.865Z	  {
-2025-07-10T17:05:25.865Z	    "name": "worker-name",
-2025-07-10T17:05:25.865Z	    "compatibility_date": "2025-07-10",
-2025-07-10T17:05:25.865Z	    "assets": {
-2025-07-10T17:05:25.866Z	      "directory": "./dist"
-2025-07-10T17:05:25.866Z	    }
-2025-07-10T17:05:25.866Z	  }
-2025-07-10T17:05:25.867Z	  ```
-2025-07-10T17:05:25.867Z	  
-2025-07-10T17:05:25.867Z	
-2025-07-10T17:05:25.867Z	
-2025-07-10T17:05:25.868Z	
-2025-07-10T17:05:25.868Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
-2025-07-10T17:05:25.877Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2025-07-10_17-05-24_868.log"
-2025-07-10T17:05:26.122Z	Failed: error occurred while running deploy command
+2025-07-10T17:09:41.077389Z	Cloning repository...
+2025-07-10T17:09:42.415375Z	From https://github.com/zimindev/prj-frontend-node.zimin.dev
+2025-07-10T17:09:42.41593Z	 * branch            3ac3ebff6da8e90129052f7be471683aa50f159c -> FETCH_HEAD
+2025-07-10T17:09:42.416059Z	
+2025-07-10T17:09:42.452499Z	HEAD is now at 3ac3ebf renew readme
+2025-07-10T17:09:42.453025Z	
+2025-07-10T17:09:42.53378Z	
+2025-07-10T17:09:42.534228Z	Using v2 root directory strategy
+2025-07-10T17:09:42.557753Z	Success: Finished cloning repository files
+2025-07-10T17:09:44.273885Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-07-10T17:09:44.274726Z	
+2025-07-10T17:09:45.402258Z	No wrangler.toml file found. Continuing.
+2025-07-10T17:09:45.402595Z	No build command specified. Skipping build step.
+2025-07-10T17:09:45.40326Z	Note: No functions dir at /functions found. Skipping.
+2025-07-10T17:09:45.403421Z	Validating asset output directory
+2025-07-10T17:09:48.109778Z	Deploying your site to Cloudflare's global network...
+2025-07-10T17:09:50.780217Z	Uploading... (0/6)
+2025-07-10T17:09:51.328598Z	Uploading... (2/6)
+2025-07-10T17:09:52.294427Z	Uploading... (4/6)
+2025-07-10T17:09:53.007997Z	Uploading... (6/6)
+2025-07-10T17:09:53.008416Z	✨ Success! Uploaded 6 files (3.12 sec)
+2025-07-10T17:09:53.00852Z	
+2025-07-10T17:09:53.413127Z	✨ Upload complete!
+2025-07-10T17:09:56.945534Z	Success: Assets published!
+2025-07-10T17:09:59.934008Z	Success: Your site was deployed!
 ```
