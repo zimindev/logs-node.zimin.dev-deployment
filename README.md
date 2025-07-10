@@ -1,0 +1,1 @@
+# logs-node.zimin.dev-deployment
