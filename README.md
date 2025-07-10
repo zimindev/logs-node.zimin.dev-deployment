@@ -1,7 +1,3 @@
-Here’s the complete deployment log in English, structured for clarity:
-
----
-
 # **🚀 Cloudflare Pages Deployment Log: node.zimin.dev**  
 **📅 Date:** July 10, 2025  
 **👨‍💻 Deployed by:** Sasha Zimin 
